@@ -20,6 +20,6 @@ for each_sentence in orig_text:
             final_text[-1] = final_text[-1] + "."
             break
 
-with open("./output_post.txt", "w") as file:
+with open("./output_postprocess.txt", "w") as file:
     for each in final_text:
         file.write(each + "\n")
