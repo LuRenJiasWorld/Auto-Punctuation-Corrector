@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 首次启动将会下载模型文件
-if [ ! -f /tmp/foo.txt ]; then
+if [ ! -f model.pcl ]; then
   echo "下载模型文件中......"
   wget -O model.pcl https://nas.backup.lurenjia.in/f/3a4fb527030b4ac29f63/?dl=1
 fi
