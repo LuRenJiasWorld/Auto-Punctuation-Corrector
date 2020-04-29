@@ -10,6 +10,8 @@
 ## 使用方法
 > 注意：本程序暂不支持Windows环境，但你可以通过安装WSL的方式获取Windows支持
 
+![Image](img/usage.gif)
+
 1. Clone本仓库，安装requirements.txt下的依赖
 
 2. 执行`./run.sh`，首次运行时会下载一个模型文件
